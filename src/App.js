@@ -17,6 +17,7 @@ import UseReducerDemo from "./hooks/UseReducerDemo";
 import FetchDemo from "./fetchDemo";
 import UseMemow3 from "./hooks/UseMemow3";
 import UseCallbackDemo from "./hooks/UseCallbackDemo";
+import CssDemo from "./styledemo/CssDemo";
 function App() {
   return (
     <BrowserRouter>
@@ -30,6 +31,7 @@ function App() {
           <Route path="unrelcomp" element={<UnrelatedComp />} />
           <Route path="hooksdemo" element={<UseCallbackDemo />} />
           <Route path="fetchdemo" element={<FetchDemo />} />
+          <Route path="cssdemo" element={<CssDemo  />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
