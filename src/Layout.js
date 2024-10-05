@@ -14,7 +14,22 @@ const Layout = () => {
                           <Link className="nav-link" to="/blogs">Blogs</Link>
                       </li>
                       <li className="nav-item">
+                          <Link className="nav-link" to="/compint">Component Interaction</Link>
+                      </li>
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/uncontrolledcomp">Uncontrolled Component</Link>
+                      </li>
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/unrelcomp">Unrelated component</Link>
+                      </li>
+                      <li className="nav-item">
                           <Link className="nav-link" to="/contact">Contact</Link>
+                      </li>
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/hooksdemo">Hooks demo</Link>
+                      </li>
+                      <li className="nav-item">
+                          <Link className="nav-link" to="/fetchdemo">Fetch API demo</Link>
                       </li>
                   </ul>
               </div>
