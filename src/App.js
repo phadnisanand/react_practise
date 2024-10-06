@@ -19,6 +19,9 @@ import UseMemow3 from "./hooks/UseMemow3";
 import UseCallbackDemo from "./hooks/UseCallbackDemo";
 import CssDemo from "./styledemo/CssDemo";
 import UselocationDemo from "./hooks/UselocationDemo";
+import ClassCompDemo from "./ClassCompDemo";
+import SassDemo from "./styledemo/SassDemo";
+import MapDemo from "./MapDemo";
 function App() {
   return (
     <BrowserRouter>
@@ -32,7 +35,8 @@ function App() {
           <Route path="unrelcomp" element={<UnrelatedComp />} />
           <Route path="hooksdemo/:id" element={<UselocationDemo />} />
           <Route path="fetchdemo" element={<FetchDemo />} />
-          <Route path="cssdemo" element={<CssDemo  />} />
+          <Route path="cssdemo" element={<MapDemo  />} />
+          <Route path="classdemo" element={<ClassCompDemo  />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
