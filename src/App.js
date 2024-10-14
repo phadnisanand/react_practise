@@ -22,6 +22,9 @@ import UselocationDemo from "./hooks/UselocationDemo";
 import ClassCompDemo from "./ClassCompDemo";
 import SassDemo from "./styledemo/SassDemo";
 import MapDemo from "./MapDemo";
+import HigherOrderDemo from "./higherOrderDemo";
+import ChildHigh from "./ChildHigh";
+import ChildHigh2 from "./ChildHigh2";
 function App() {
   return (
     <BrowserRouter>
@@ -37,6 +40,8 @@ function App() {
           <Route path="fetchdemo" element={<FetchDemo />} />
           <Route path="cssdemo" element={<MapDemo  />} />
           <Route path="classdemo" element={<ClassCompDemo  />} />
+          <Route path="highorderdemochild1" element = {< ChildHigh />} />
+          <Route path="highorderdemochild2" element = {< ChildHigh2 />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

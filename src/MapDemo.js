@@ -38,7 +38,7 @@ function MapDemo(props) {
       ];
 
     const filterhandler = () => {
-        setMyCar(cars.filter(car => car.price == 10));
+        setMyCar(cars.filter(car => car.price === 10));
     }
 
     const filterreduce = () => {
